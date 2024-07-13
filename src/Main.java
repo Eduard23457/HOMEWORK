@@ -60,7 +60,7 @@ public class Main {
         System.out.println("Общий вес боксеров " + boxerWeight + " кг");
 
         var boxersWeight = boxerTwo - boxerOne;
-        System.out.println("Второй боец весит больше чем первый на " + boxersWeight +" кг");
+        System.out.println("Второй боец весит больше чем первый на " + boxersWeight + " кг");
 
         //Задача 7
         var usersWeight = boxerTwo % boxerOne;
@@ -75,7 +75,7 @@ public class Main {
         worker = worker + 94;
         System.out.println("Столько человек работают на данный момент " + worker);
 
-        var allTime = generalTime / worker;
+        var allTime = time * worker;
         System.out.println("Если в компании работает " + worker + " человека, то всего " + allTime + " часа работы может быть поделено между сотрудниками");
 
 
